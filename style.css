@@ -1,85 +1,88 @@
-/* 1. global config * /
+/* 1. global config */
+
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  /* 2. global style */
-  html,
-  body {
-    background-color: #fdf6f0;
-    line-height: 1.4em;
-    text-decoration: none;
-    margin: 0.75px 0;
-    font-family: "Noto Sans", sans-serif;
-  }
-  
-  @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Noto+Sans&family=Roboto:wght@100;300&display=swap");
-  @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;900&family=Noto+Sans&family=Roboto:wght@100;300&display=swap");
-  
-  /* 3. settings */
-  section {
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    margin-top: 2rem;
-    align-items: center;
-    justify-content: center;
-    padding: 2rem 2rem;
-    overflow: hidden;
-  }
-  
-  /* 4.  Collaborative Task for Assessment */ 
-  .WeServe h2 {
-    color: #ff7600;
-    padding-left: 30px;
-    font-size: 40px;
-  }
-  
-  .WeServe h2 span {
-    color: black;
-  }
-  
-  .logos {
-    margin-top: 2rem;
-    display: flex;
-    align-items: center;
-    padding-top: 30px;
-    justify-content: center;
-  }
-  
-  .logos i {
-    line-height: 2em;
-    width: 80px;
-    height: 70px;
-    float: left;
-    background-color: #f8e2cf;
-    color: #333;
-    margin-top: 10px;
-    border: 1px solid transparent;
-    border-radius: 50%;
-  }
-  
-  .logos h3 {
-    font-size: 19px;
-    padding-bottom: 14px;
-  }
-  
-  .logos .container {
-    flex: 1;
-    margin: 10px 20px;
-    padding-left: 20px;
-    margin-top: 20px;
-  }
-  
-  .logos .container .content {
-    width: 100%;
-    text-align: left;
-    padding-left: 110px;
-    height: 50%;
-  }
-  
-  .logos .container .content p {
-    font-size: 17px;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 2. global style */
+
+html,
+body {
+  background-color: #fdf6f0;
+  line-height: 1.4em;
+  text-decoration: none;
+  margin: 0.75px 0;
+  font-family: "Noto Sans", sans-serif;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Noto+Sans&family=Roboto:wght@100;300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;900&family=Noto+Sans&family=Roboto:wght@100;300&display=swap");
+
+/* 3. settings*/
+
+section {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  margin-top: 2rem;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 2rem;
+  overflow: hidden;
+}
+
+/* collabo */
+.WeServe h2 {
+  color: #ff7600;
+  padding-left: 30px;
+  font-size: 40px;
+}
+
+.WeServe h2 span {
+  color: black;
+}
+
+.logos {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  padding-top: 30px;
+  justify-content: center;
+}
+
+.logos i {
+  line-height: 2em;
+  width: 80px;
+  height: 70px;
+  float: left;
+  background-color: #f8e2cf;
+  color: #333;
+  margin-top: 10px;
+  border: 1px solid transparent;
+  border-radius: 50%;
+}
+
+.logos h3 {
+  font-size: 19px;
+  padding-bottom: 14px;
+}
+
+.logos .container {
+  flex: 1;
+  margin: 10px 20px;
+  padding-left: 20px;
+  margin-top: 20px;
+}
+
+.logos .container .content {
+  width: 100%;
+  text-align: left;
+  padding-left: 110px;
+  height: 50%;
+}
+
+.logos .container .content p {
+  font-size: 17px;
+}
